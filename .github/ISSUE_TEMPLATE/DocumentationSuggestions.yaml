@@ -24,7 +24,7 @@ body:
       - Documentation bug
       - Documentation request
 validations:
-required: true
+  required: true
 - type: input
   attributes:
     label: Documentation link
