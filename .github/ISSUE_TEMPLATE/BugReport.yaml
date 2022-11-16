@@ -22,7 +22,7 @@ body:
     description: Your current operating environment.
     value: |
         - Device: [e.g. Laptop]
-        - OS: [e.g. macOS 12, Windows 10, Ubuntu 20.04, IOS]
+        - OS: [e.g. macOS 12, Windows 10, Ubuntu 20.04]
         - Browser: [e.g. Chrome, Safari]
         - Version: [e.g. Cloud / Self Hosted - ]
   validations:
