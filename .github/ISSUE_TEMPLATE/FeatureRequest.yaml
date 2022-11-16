@@ -1,0 +1,37 @@
+name: 💡 Feature request
+description: Request a feature for Openblocks.
+title: "[Feature]: "
+labels: [Enhancement]
+assignees:
+- Nikhil-Nandagopal
+- 
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thank you for spending time sharing your ideas with us! Please remember to fill out this form in English. 🫶
+- type: checkboxes
+  attributes:
+    label: Prerequisite
+    description: Take a couple of minutes to help our maintainers work faster.
+    options:
+    - label: Make sure you have [searched](https://github.com/openblocks-dev/openblocks/issues) duplicate or closed issues before.
+      required: true
+- type: textarea
+  attributes:
+    label: Description
+    description: A clear and concise description of the feature.
+    placeholder: |
+      1. '...' // The current behavior
+      2. '...' // The expected behavior
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Use case
+    description: Describe the use cases that you can think of.
+    placeholder: |
+      1. '...' // use case1
+      2. '...' // use case2
+  validations:
+    required: true
