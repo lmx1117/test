@@ -1,10 +1,9 @@
 name: 🐛 Bug report
 description: Report a bug for Openblocks.
 title: "[Bug]: "
-labels: [Bug, Needs Triaging]
+labels: []
 assignees:
-- Nikhil-Nandagopal
-- pranavkanade
+- lmx1117
 body:
 - type: markdown
   attributes:
