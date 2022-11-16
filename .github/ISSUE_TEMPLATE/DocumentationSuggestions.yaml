@@ -20,7 +20,7 @@ body:
   attributes:
     label: Issue type
     description: Please select the type of issue you have from the dropdown list.
-  options:
+    options:
       - Documentation bug
       - Documentation request
 validations:
