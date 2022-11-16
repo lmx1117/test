@@ -1,0 +1,46 @@
+name: 📑 Documentation Suggestions
+description: Suggest improvements for Openblocks documentation.
+title: "[Docs]: "
+labels: [Documentation]
+assignees:
+- Nikhil-Nandagopal
+- danciaclara
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thank you for spending time sharing your suggestions on our documentation! Please remember to fill out this form in English. 🫶
+- type: checkboxes
+  attributes:
+    label: Prerequisite
+    description: Take a couple of minutes to help our maintainers work faster.
+    options:
+    - label: Make sure you have [searched](https://github.com/openblocks-dev/openblocks/issues) duplicate or closed issues before.
+      required: true
+- type: dropdown
+  attributes:
+    label: Issue type
+    description: Please select the type of issue you have from the dropdown list.
+  options:
+      - Documentation bug
+      - Documentation request
+validations:
+required: true
+- type: input
+  attributes:
+    label: Documentation link
+    description: Attach the doc link which needs to be improved.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Issue discription
+    description: Is there anything missing or confusing in the documentation?
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Suggestions
+    description: Share your valuable suggestions in a clear way.
+  validations:
+    required: true
