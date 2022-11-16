@@ -1,7 +1,7 @@
 name: 📑 Documentation Suggestions
 description: Suggest improvements for Openblocks documentation.
 title: "[Docs]: "
-labels: [Documentation]
+labels: [documentation]
 assignees:
 - lmx1117
 body:
