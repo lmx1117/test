@@ -1,0 +1,52 @@
+name: 🐛 Bug report
+description: Report a bug for Openblocks.
+title: "[Bug]: "
+labels: [Bug, Needs Triaging]
+assignees:
+- Nikhil-Nandagopal
+- pranavkanade
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thank you for spending time reporting a bug for Openblocks! Please remember to fill out this form in English. 🫶
+- type: checkboxes
+  attributes:
+    label: Prerequisite
+    description: Take a couple of minutes to help our maintainers work faster.
+    options:
+    - label: Make sure you have [searched](https://github.com/openblocks-dev/openblocks/issues) duplicate or closed issues before.
+      required: true
+- type: textarea
+  attributes:
+    label: Environment
+    description: Your current operating environment.
+    value:
+        - Device: [e.g. Laptop]
+        - OS: [e.g. macOS 12, Windows 10, Ubuntu 20.04, IOS]
+        - Browser: [e.g. Chrome, Safari]
+        - Version: [e.g. Cloud / Self Hosted - ]
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Description
+    description: A clear and concise description of what is happening now and what your expected behavior is.
+    placeholder: |
+      1. '...' // The current behavior
+      2. '...' // The expected behavior
+      3. '...' // Attach error message if there is some
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Reproduce
+    description: List steps to reproduce this behavior.
+    placeholder: |
+      1. Go to '...'
+      2. Click on '...'
+      3. Scroll down to '...'
+      4. See error
+      5. It's nice to attach pictures or video here if there are some.
+  validations:
+    required: true
