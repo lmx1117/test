@@ -15,7 +15,7 @@ body:
     description: Take a couple of minutes to help our maintainers work faster.
     options:
     - label: Make sure you have [searched](https://github.com/openblocks-dev/openblocks/issues) duplicate or closed issues before.
-      required: true
+    required: true
 - type: dropdown
   attributes:
     label: Issue type
