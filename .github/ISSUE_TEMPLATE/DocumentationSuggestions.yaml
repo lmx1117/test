@@ -23,8 +23,8 @@ body:
     options:
       - Documentation bug
       - Documentation request
-validations:
-  required: true
+  validations:
+    required: true
 - type: input
   attributes:
     label: Documentation link
