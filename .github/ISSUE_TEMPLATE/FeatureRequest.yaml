@@ -1,7 +1,7 @@
 name: 💡 Feature request
 description: Request a feature for Openblocks.
 title: "[Feature]: "
-labels: [Enhancement]
+labels: [feature]
 assignees:
 - lmx1117
 body:
