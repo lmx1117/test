@@ -3,8 +3,7 @@ description: Request a feature for Openblocks.
 title: "[Feature]: "
 labels: [Enhancement]
 assignees:
-- Nikhil-Nandagopal
-- 
+- lmx1117
 body:
 - type: markdown
   attributes:
