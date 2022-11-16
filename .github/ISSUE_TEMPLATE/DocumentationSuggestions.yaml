@@ -3,8 +3,7 @@ description: Suggest improvements for Openblocks documentation.
 title: "[Docs]: "
 labels: [Documentation]
 assignees:
-- Nikhil-Nandagopal
-- danciaclara
+- lmx1117
 body:
 - type: markdown
   attributes:
