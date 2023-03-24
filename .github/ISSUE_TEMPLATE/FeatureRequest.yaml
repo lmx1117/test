@@ -23,6 +23,7 @@ body:
     options:
       - label: Admins
       - label: Developers
+      - label: End users
 - type: textarea
   attributes:
     label: Description
