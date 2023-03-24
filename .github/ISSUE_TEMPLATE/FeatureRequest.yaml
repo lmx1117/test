@@ -16,12 +16,15 @@ body:
     options:
     - label: Make sure you have [searched](https://github.com/openblocks-dev/openblocks/issues) duplicate or closed issues before.
       required: true
-- type: textarea
+- type: checkboxes
   attributes:
     label: Target Users
     description: Who will benefit from this? For example, will it be admins, developers, or end users?
-  validations:
-    required: true
+      options:
+        - label: Admins
+        - label: Developers
+        - label: End users
+
 - type: textarea
   attributes:
     label: Description
