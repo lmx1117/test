@@ -46,6 +46,6 @@ body:
       2. Click on '...'
       3. Scroll down to '...'
       4. See error
-      5. It's nice to attach pictures or video here if there are some.
+      5. It's nice to attach pictures or videos here if there are some.
   validations:
     required: true
