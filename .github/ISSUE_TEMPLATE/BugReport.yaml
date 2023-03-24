@@ -23,7 +23,7 @@ body:
     value: |
         - Device: [e.g. Laptop]
         - OS: [e.g. macOS 12, Windows 10, Ubuntu 20.04]
-        - Browser: [e.g. Chrome 111.0.5563.64, Safari 16.3 (18614.4.6.1.6)]
+        - Browser: [e.g. Chrome - , Safari - ]
         - Version: [e.g. Cloud / Self Hosted - ]
   validations:
     required: true
