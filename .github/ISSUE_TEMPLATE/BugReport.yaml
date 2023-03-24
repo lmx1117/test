@@ -23,8 +23,8 @@ body:
     value: |
         - Device: [e.g. Laptop]
         - OS: [e.g. macOS 12, Windows 10, Ubuntu 20.04]
-        - Browser: [e.g. Chrome x.x.x.x, Safari x.x()]
-        - Version: [e.g. Cloud vx.x.x/ Self Hosted - vx.x.x]
+        - Browser: [e.g. Chrome (version x.x.x.x), Safari (version x.x())]
+        - Version: [e.g. Cloud (version vx.x.x)/ Self Hosted - (version vx.x.x)]
   validations:
     required: true
 - type: textarea
