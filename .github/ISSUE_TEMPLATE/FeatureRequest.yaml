@@ -18,6 +18,12 @@ body:
       required: true
 - type: textarea
   attributes:
+    label: Target Users
+    description: Who will benefit from this? For example, will it be admins, developers, or end users?
+  validations:
+    required: true
+- type: textarea
+  attributes:
     label: Description
     description: A clear and concise description of the feature.
     placeholder: |
