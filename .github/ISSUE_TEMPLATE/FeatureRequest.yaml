@@ -21,10 +21,9 @@ body:
     label: Target Users
     description: Who will benefit from this? For example, will it be admins, developers, or end users?
       options:
-        - label: Admins
-        - label: Developers
-        - label: End users
-
+        - Admins
+        - Developers
+        - End users
 - type: textarea
   attributes:
     label: Description
