@@ -22,6 +22,7 @@ body:
     description: Who will benefit from this? For example, will it be admins, developers, or end users?
     options:
       - label: Admins
+      - label: Developers
 - type: textarea
   attributes:
     label: Description
