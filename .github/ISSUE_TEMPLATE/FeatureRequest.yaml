@@ -20,6 +20,7 @@ body:
   attributes:
     label: Target Users
     description: Who will benefit from this? For example, will it be admins, developers, or end users?
+    multiple: true
     options:
       - Admins
       - Developers
